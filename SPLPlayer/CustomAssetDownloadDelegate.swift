@@ -77,7 +77,7 @@ class CustomAssetDownloadDelegate: NSObject, AVAssetDownloadDelegate {
                 self.prepOfflineButton!.backgroundColor = UIColor.green
             }
         }
-        // if there is no saved bookmark presume there is no downloaded asset
+        // if there is no saved bookmark presume there is no downloaded assets
         else{
             self.downloadButton!.setTitle("Download", for: .normal)
             self.downloadButton!.isEnabled = true
